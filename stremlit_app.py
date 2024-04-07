@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 
-model = tf.keras.models.load_model(r'C:\Users\Siddhartha Devan V\jupyter ml\COVID\vgg16_cov_1')
+model = tf.keras.models.load_model('vgg16_cov_1')
 
 
 st.title('COVID-19 Prediction')
